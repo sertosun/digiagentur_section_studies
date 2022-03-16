@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+section {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 100px 0 100px;
+}
+
+.inner {
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  gap: 2em;
+}
+
+.wp_column {
+  flex-basis: 50%;
+  margin-left: 4.1%;
+}
+
+.column_text {
+  text-align: right;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.person_kontakt {
+  display: flex;
+  align-items: end;
+}
+
+.image {
+  flex: 1;
+  margin-right: 1em;
+}
+
+.image img {
+  width: 100%;
+}
+
+.person_kontakt_text {
+  flex: 3;
+}
+
+.person_kontakt_text h5 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.mail {
+  padding-left: 30px;
+  background-image: url(mail.svg);
+  background-position: center left;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  line-height: 22px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.phone {
+  padding-left: 30px;
+  background-image: url(phone.svg);
+  background-position: center left;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  line-height: 22px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/*-------------- RIGHT AREA----------------- */
+
+.form {
+  position: relative;
+  box-shadow: 0px 2px 9.1px 0.9px rgb(0 0 0 / 15%);
+  padding: 30px;
+  background-color: #fff;
+}
+
+.wp_column_top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.wp_column_top_box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp_column_top_box_number {
+  color: white;
+  background-color: #808080;
+  width: 20px;
+  height: 20px;
+}
+
+.wp_column_top_box_text {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #808080;
+}
+
+.first_number {
+  background-color: #65cdaa;
+}
+
+.first_text {
+  color: #65cdaa;
+}
+
+.column_top_line {
+  height: 2px;
+  width: 80px;
+  margin: 0 5px 13px 5px;
+  background-color: gray;
+}
+
+.label_content {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.wp_column_form_leistung {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  gap: 0.8em;
+  align-items: center;
+  color: #000;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 1.2em 2.8em;
+  background-color: rgb(42, 71, 61);
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  transition: all 0.7s;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #65cdaa;
+  transition: all 0.7s;
+}
